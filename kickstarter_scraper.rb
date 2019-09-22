@@ -8,6 +8,5 @@ def create_project_hash
   binding.pry 
 
 
-  project_hash = Hash.new
 end
 
