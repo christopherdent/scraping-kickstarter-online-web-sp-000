@@ -3,5 +3,5 @@ require 'pry'
 
 
 def create_project_hash
-  project_hash = hash.new
+  project_hash = Hash.new
 end
