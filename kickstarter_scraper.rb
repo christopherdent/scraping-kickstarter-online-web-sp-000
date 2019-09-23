@@ -17,6 +17,7 @@ create_project_hash
 #image link:  project.css("div.project-thumbnail a img").attribute("src").value 
 #description:  project.css("p.bbcard_blurb").text 
 #location:  project.css("li.data-location a").text 
+#percent:  project.css("li.first.funded").text
 
 
 #<span class="location-name">New York, NY</span>
