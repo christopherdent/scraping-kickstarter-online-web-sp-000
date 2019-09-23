@@ -8,7 +8,7 @@ def create_project_hash
   
   projects = {} 
   
-  kickstarter.css("li.project.grod_4").each {|project| projects[project] = {}}
+  kickstarter.css("li.project.grid_4").each {|project| projects[project] = {}}
   
 end
 
