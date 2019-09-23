@@ -15,3 +15,8 @@ create_project_hash
 #projects:  kickstarter.csS("li.project.grid_4")
 #title:  project.css("h2.bbcard_name strong a").text 
 #image link:  project.css("div.project-thumbnail a img").attribute("src").value 
+
+
+<p class="bbcard_blurb">
+Four young composers join forces with an indie orchestra to present this musical reflection on a literary masterpiece.
+</p>
