@@ -19,6 +19,3 @@ create_project_hash
 #location:  project.css("li")
 
 
-<p class="bbcard_blurb">
-Four young composers join forces with an indie orchestra to present this musical reflection on a literary masterpiece.
-</p>
