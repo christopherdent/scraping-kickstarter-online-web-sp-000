@@ -5,7 +5,11 @@ require 'pry'
 def create_project_hash
   html = File.read('fixtures/kickstarter.html')
   kickstarter = Nokogiri::HTML(html)
-  binding.pry
+  
+  projects = {} 
+  
+  kickstarter.css("li.project.grod_4").each {|project| projects[project] = {}}
+  
 end
 
 create_project_hash
