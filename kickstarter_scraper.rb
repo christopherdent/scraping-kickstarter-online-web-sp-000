@@ -19,3 +19,4 @@ create_project_hash
 #location:  project.css("li")
 
 
+<span class="location-name">New York, NY</span>
